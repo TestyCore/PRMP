@@ -1,0 +1,5 @@
+.idea/*
+.gradle/
+.DS_Store
+Calculator/.idea/*
+Calculator/.gradle/*

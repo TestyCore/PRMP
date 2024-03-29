@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/operationField"
+        style="@style/DisplayHorizontal"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/resultField"
+        style="@style/DisplayHorizontal"
+        android:text="" />
+
+
+    <GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="6"
+        android:layout_marginHorizontal="45sp"
+        android:rowCount="6">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/q"
+            style="@style/Plug"
+            android:text=""/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/w"
+            style="@style/Plug"
+            android:text=""/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/e"
+            style="@style/Plug"
+            android:text=""/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/r"
+            style="@style/Plug"
+            android:text=""/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/t"
+            style="@style/Plug"
+            android:text=""/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_back"
+            style="@style/BackHorizonal"
+            android:text=""
+            android:drawableRight="@drawable/icon_backspace"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_sqrt"
+            style="@style/HorizontalOperation"
+            android:text="sqrt" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_sin"
+            style="@style/HorizontalOperation"
+            android:text="sin" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_ac"
+            style="@style/CHorizonal"
+            android:text="C"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_left_bracket"
+            style="@style/GreenOperationHorizonal"
+            android:text="( )"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_percent"
+            style="@style/GreenOperationHorizonal"
+            android:text="%"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_div"
+            style="@style/GreenOperationHorizonal"
+            android:text="/"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_log"
+            style="@style/HorizontalOperation"
+            android:text="log2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_cos"
+            style="@style/HorizontalOperation"
+            android:text="cos" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_7"
+            style="@style/NumberHorizonal"
+            android:text="7"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_8"
+            style="@style/NumberHorizonal"
+            android:text="8"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_9"
+            style="@style/NumberHorizonal"
+            android:text="9"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_mul"
+            style="@style/GreenOperationHorizonal"
+            android:text="*"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_ln"
+            style="@style/HorizontalOperation"
+            android:text="ln" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_tan"
+            style="@style/HorizontalOperation"
+            android:text="tan" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_4"
+            style="@style/NumberHorizonal"
+            android:text="4"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_5"
+            style="@style/NumberHorizonal"
+            android:text="5"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_6"
+            style="@style/NumberHorizonal"
+            android:text="6"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_minus"
+            style="@style/GreenOperationHorizonal"
+            android:text="-"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_e_pow"
+            style="@style/HorizontalOperation"
+            android:text="e^x" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_e"
+            style="@style/HorizontalOperation"
+            android:text="e" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_1"
+            style="@style/NumberHorizonal"
+            android:text="1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_2"
+            style="@style/NumberHorizonal"
+            android:text="2"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_3"
+            style="@style/NumberHorizonal"
+            android:text="3"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_add"
+            style="@style/GreenOperationHorizonal"
+            android:text="+"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_pow"
+            style="@style/HorizontalOperation"
+            android:text="x^y" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_pi"
+            style="@style/HorizontalOperation"
+            android:text="pi" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_invert"
+            style="@style/NumberHorizonal"
+            android:text="+/-"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_0"
+            style="@style/NumberHorizonal"
+            android:text="0"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_dot"
+            style="@style/NumberHorizonal"
+            android:text="."/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/b_equals"
+            style="@style/EqualHorizonal"
+            android:text="="/>
+
+    </GridLayout>
+</LinearLayout>
